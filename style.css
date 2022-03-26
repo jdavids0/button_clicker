@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#page-container{
+    min-height: 200px;
+}
+
+#header{
+    background-color: lightgray;
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#search{
+    border: 2px solid black;
+}
+
+#log-in{
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    padding: 0.5% 1% 0.5% 1%;
+    box-shadow: 3px 3px 3px black;
+}
+
+#body{
+    height: 800px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+#col-1{
+    flex: 3;
+}
+
+#col-2{
+    flex: 2;
+    margin-left: 4%;
+}
+
+.ninja{
+    border: 2px solid black;
+    height: 45%;
+    margin-bottom: 4%;
+    display: flex;
+}
+
+.likes{
+    flex: 1;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.likes-button{
+    background-color: burlywood;
+    box-shadow: 3px 3px 3px black;
+    padding: 2% 12% 2% 12%;
+    font-size: large;
+    margin-top: 60%;
+}
+
+.noun{
+    font-size: larger;
+}
+
+.definitions{
+    flex: 3;
+    margin-top: 15%;
+    margin-left: 3%;
+    font-size: larger;
+}
+
+#dojonary{
+    border: 2px solid black;
+    height: 35%;
+}
+
+.def-you{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+#add-def{
+    background-color: chartreuse;
+    box-shadow: 10px 8px 10px black;
+    margin-top: 18%;
+    margin-left: 12%;
+    font-size: larger;
+    padding: 2% 20% 2% 20%;
+}
+
